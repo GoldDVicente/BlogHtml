@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        canvas {
+            background-color: chocolate;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="lienzo" width="500" height="300">
+        El navegador no soporta canvas
+    </canvas>
+    <script type="text/javascript">
+        var ctx = null,
+            canvas = null;
+
+        function iniciar() {
+            canvas = document.getElementById('lienzo');
+            ctx = canvas.getContext('2d');
+            ctx.fillStyle = "rgba(0, 0, 0, 0.5)";
+            ctx.fillRect(100, 10, 60, 50);
+            ctx.lineWidth = 5;
+            ctx.strokeStyle = "red";
+            ctx.strokeRect(200, 70, 60, 50);
+        }
+        window.addEventListener("load", iniciar, false);
+    </script>
+</body>
+
+</html>

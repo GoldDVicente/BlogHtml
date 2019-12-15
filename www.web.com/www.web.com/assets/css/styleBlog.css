@@ -1,0 +1,9 @@
+article h2,
+article p {
+    margin: 0px 10px 10px 10px;
+}
+
+iframe {
+    width: 60vw;
+    height: 50vh;
+}

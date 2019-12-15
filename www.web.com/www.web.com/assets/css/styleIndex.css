@@ -1,0 +1,15 @@
+.parallax {
+    background-image: url("https://www.eniun.com/wp-content/uploads/eniun-home-historia.jpg");
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax img {
+    max-width: 500px;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
