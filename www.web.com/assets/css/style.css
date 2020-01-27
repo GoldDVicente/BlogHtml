@@ -1,4 +1,121 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif, Tahoma;
+  color: #ffffff;
+  font-size: 1em;
+}
+
+body {
+  padding-top: 10vh;
+  background-color: #000000;
+  background-image: url(../images/background.webp);
+  background-repeat: no-repeat;
+}
+
+img {
+  width: 5vw;
+  height: 5vh;
+}
+
+/* ESTE CODIGO ES PARA EL HEADER */
+header {
+  top: 0px;
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+  background-color: #000000;
+  z-index: 5;
+}
+
+header img {
+  padding: 2vh 1vw;
+  margin-left: 3vw;
+}
+
+nav {
+  /* ESTO SERIA PARA ALINEAR EL MENU EN EL CENTRO
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    max-width: 80%;*/
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+  text-align: center;
+  vertical-align: top;
+  margin-right: 3vw;
+}
+
+nav ul li {
+  list-style-type: none;
+  padding: 0px;
+  display: inline;
+  padding: 10px;
+}
+
+nav ul li a {
+  font-size: 1em;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 15px 10px;
+}
+
+nav ul li a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* ESTE CODIGO VA EN EL ARTICLE */
+article {
+  background-color: #0000ff;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+
+section {
+  background-color: brown;
+  margin: 0 auto;
+  padding: 3vh;
+  text-align: center;
+}
+
+.info-box {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 3vh;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: aquamarine;
+}
+
+/* ESTO ES PARA EL FOOTER */
+footer {
+  background-color: #ff0000;
+  width: 100%;
+  padding: 10px 0;
+  bottom: 0;
+  text-align: center;
+  color: #000000;
+}
+
+footer a {
+  height: 5vh;
+  color: #000000;
+}
+
+footer a img:hover {
+  fill: #ffffff;
 }

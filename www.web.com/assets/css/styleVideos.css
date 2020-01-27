@@ -1,0 +1,74 @@
+.animation img {
+    position: relative;
+    animation-name: crazyShake;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: crazyShake;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes crazyShake {
+    0% {
+        left: 30px;
+        top: 0px;
+        right: 0px;
+        bottom: -30px;
+    }
+
+    33% {
+        left: -30px;
+        top: 30px;
+        right: 0px;
+        bottom: 0px;
+    }
+
+    66% {
+        left: 0px;
+        top: -30px;
+        right: 30px;
+        bottom: 0px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+        right: -30px;
+        bottom: 30px;
+    }
+}
+
+
+@keyframes crazyShake {
+    0% {
+        left: 30px;
+        top: 0px;
+        right: 0px;
+        bottom: -30px;
+    }
+
+    33% {
+        left: -30px;
+        top: 30px;
+        right: 0px;
+        bottom: 0px;
+    }
+
+    66% {
+        left: 0px;
+        top: -30px;
+        right: 30px;
+        bottom: 0px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+        right: -30px;
+        bottom: 30px;
+    }
+}
+
+canvas {
+    background-color: cornsilk;
+}
