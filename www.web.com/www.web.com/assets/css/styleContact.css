@@ -1,0 +1,51 @@
+/* ESTO ES PARA EL FORMULARIO */
+
+form {
+  width: 50vw;
+  padding: 1em;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+  width: 50vw;
+  padding: 5px 10px;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 8px 0;
+  display: inline-block;
+}
+
+form input[type="submit"] {
+  width: 50vw;
+  padding: 8px 16px;
+  margin-top: 32px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: block;
+  color: #fff;
+  background-color: #000;
+}
+
+form input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+textarea {
+  width: 50vw;
+  height: 100px;
+  padding: 5px 10px;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 8px 0;
+  /*resize: vertical | horizontal | none | both*/
+  resize: vertical;
+  display: block;
+}
