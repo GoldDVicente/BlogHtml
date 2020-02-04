@@ -13,6 +13,6 @@
     display: block;
     margin: 0 auto;
 }
-section{
+section, info-box{
     background: #000000;
 }
